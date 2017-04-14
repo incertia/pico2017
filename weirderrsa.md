@@ -2,8 +2,8 @@
 
 Some idiot spoiled this problem on stack exchange.
 
-We know that `e * d = 1 (mod (p - 1)(q - 1))`, so we also have `e * d = 1 (mod p
-- 1)`, or `e * dp = 1 (mod p - 1)`. This means `a ^ (e * dp) = a (mod p)` for
+We know that `e * d = 1 (mod (p - 1)(q - 1))`, so we also have `e * d = 1 (mod p - 1)`
+, or `e * dp = 1 (mod p - 1)`. This means `a ^ (e * dp) = a (mod p)` for
 some arbitrary choice of `a`. Now that we have two multiples of `p`, we can
 compute their GCD to get `p`.
 
